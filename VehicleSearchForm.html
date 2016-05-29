@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset=utf-8" />
+   <title>jQueryMobile Form Example</title>
+
+   <link rel="stylesheet" href="CSS3Background.css" />
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  </head>
+
+
+  <body>
+
+<div data-role="page" id="page1">
+   <header data-role="header" data-position="fixed">
+	 <h3><a href="http://www.edmunds.com/?id=apis" target='blank'><img src="http://developer.edmunds.com/assets/themes/twitter/img/branding-guide/retina/440_grey.png" style="width:20%;"></img></a></h3>
+
+   </header>
+
+   <div data-role="content">
+     <form action="#" method="get">
+
+       <div data-role="fieldcontain">
+          <label for="searchinput">Search Car Make:</label>
+          <input id="searchinput" type="search" name="make" value=""  />
+       </div>
+
+        <div data-role="fieldcontain">
+	             <label for="searchinput2">Search Car Model:</label>
+	             <input id="searchinput2" type="search" name="model" value=""  />
+       </div>
+
+       <!-- drop-down list -->
+	   <div data-role="fieldcontain">
+	          <label for="select-condition" class="select">Select Condition:</label>
+	          <select name="select-condition" id="selectcondition">
+	            <option value="AA">New</option>
+	            <option value="MP">Used</option>
+	            <option value="NP">Future</option>
+
+	          </select>
+       </div>
+
+        <div data-role="fieldcontain">
+	   	             <label for="searchinput3">Enter Year:</label>
+	   	             <input id="searchinput3" type="search" name="year" value=""  />
+       </div>
+
+       <!-- drop-down list -->
+	   <div data-role="fieldcontain">
+			  <label for="select-category" class="select">Category:</label>
+			  <select name="select-category" id="selectcategory">
+				<option value="AA">4dr Hatchback</option>
+				<option value="HB">2dr Hatchback</option>
+				<option value="MP">Coupe</option>
+				<option value="NP">Convertible</option>
+				<option value="NP">Sedan</option>
+				<option value="WN">Wagon</option>
+				<option value="SU">2dr SUV</option>
+				<option value="SV">4dr SUV</option>
+				<option value="SV">Passenger Minivan</option>
+
+			  </select>
+	   </div>
+
+	          <!-- drop-down list -->
+	   	   <div data-role="fieldcontain">
+	   	          <label for="select-details" class="select">Select Detail View:</label>
+	   	          <select name="select-details" id="selectdetails">
+	   	            <option value="BA">Basic</option>
+	   	            <option value="FL">Full</option>
+
+	   	          </select>
+       </div>
+
+
+       <div class="ui-body ui-body-b">
+         <fieldset class="ui-grid-a">
+          <div class="ui-block-a"><button type="submit" data-theme="d" onclick="location='http://charleenramos.github.io/Edmunds'">Reset</button></div>
+          <div class="ui-block-b"><button id="search_btn" input type="submit" data-theme="a" onclick="location='http://charleenramos.github.io/Edmunds'">Submit</button></div>
+         </fieldset>
+       </div>
+
+     </form>
+
+     <footer data-role="footer" data-position="fixed">
+	          <h3><a href="http://www.edmunds.com/?id=apis" target='blank'><img src="http://developer.edmunds.com/assets/themes/twitter/img/branding-guide/300_horizontal_red.png" align="center"></a></h3>
+     </footer>
+
+     </div>
+   </div>
+  </body>
+</html>
+
