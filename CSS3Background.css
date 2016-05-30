@@ -20,10 +20,21 @@
     bottom: 0;
     right: 0;
     left: 0;
-    height: 100px;
+    height: 300px;
     width: 300px;
     margin: auto;
 }
+
+#box1 {
+  position:relative;top:10px;
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+  -moz-box-shadow: 10px 10px 5px #800;
+  -webkit-box-shadow: 10px 10px 5px #800;
+  box-shadow: 10px 10px 5px #800;
+}
+
 
 /*
 #picOne, #picTwo {
