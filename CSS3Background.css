@@ -33,6 +33,11 @@
   -moz-box-shadow: 10px 10px 5px #800;
   -webkit-box-shadow: 10px 10px 5px #800;
   box-shadow: 10px 10px 5px #800;
+
+  background-image: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#fff), to(#ff0));
+  background-image: -gradient(linear, 100% 0%, 0% 100%, from(#fff), to(#ff0));
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 
 #video {
