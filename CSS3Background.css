@@ -36,6 +36,18 @@
 background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%); 
 
 
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
 }
 
 #video {
@@ -48,10 +60,9 @@ background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e
     width: 640px;
     margin: auto;
     
-
-
-
 }
+
+
 
 
 /*
