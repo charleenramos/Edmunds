@@ -34,10 +34,13 @@
   -webkit-box-shadow: 10px 10px 5px #800;
   box-shadow: 10px 10px 5px #800;
 
-  background-image: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#71312f), to(#02aab7));
-  background-image: -gradient(linear, 100% 0%, 0% 100%, from(#71312f), to(#02aab7));
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+
+
+background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%); 
+
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+
 }
 
 #video {
