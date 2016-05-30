@@ -1,10 +1,8 @@
 /*=================
 SEARCH FORM
 =================*/
-	
-$(document).on('pageinit', "#searchpage", function() {
 
-$("#search_btn").click(function(){
+$(document).on('pageinit', "#searchpge", function() {
 	window.sdkAsyncInit = function() 
 	// Instantiate the SDK
 	     var res = new EDMUNDSAPI('rw3yh74wqjp9aazevc38ea8r'); //API Key
@@ -28,8 +26,6 @@ $("#search_btn").click(function(){
 			res.api('/api/vehicle/v2/toyota/models', options, success, fail);
 
 	    // Additional initialization code such as adding Event Listeners goes here
-}
-}
 
 });
 
