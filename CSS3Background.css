@@ -34,8 +34,8 @@
   -webkit-box-shadow: 10px 10px 5px #800;
   box-shadow: 10px 10px 5px #800;
 
-  background-image: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#fff), to(#02aab7));
-  background-image: -gradient(linear, 100% 0%, 0% 100%, from(#fff), to(#ff0));
+  background-image: -webkit-gradient(linear, 100% 0%, 0% 100%, from(#71312f), to(#02aab7));
+  background-image: -gradient(linear, 100% 0%, 0% 100%, from(#71312f), to(#02aab7));
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
