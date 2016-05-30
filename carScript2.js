@@ -6,6 +6,15 @@ $(document).on('pageinit', "#searchpage", function() {
 	$('#search_btn').click();
 	
 });
+
+/* HANDLES INITIAL SEARCHES */
+	$("#search_btn").click(function(){
+		$("#load_more").data("resultPage", 0);
+		$("#indicators").hide();
+		$("#contents").empty();
+		$(this).button("disable");
+		doSearch();
+	});
 	
 $(document).on('pageinit', "#searchpage", function() {
 	/* 'ENTER' IN TEXTBOX EXECUTES SEARCH */
