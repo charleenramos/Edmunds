@@ -1,23 +1,10 @@
 /*=================
 SEARCH FORM
 =================*/
-$(document).on('pageinit', "#searchpage", function() {
-	/* 'ENTER' IN TEXTBOX EXECUTES SEARCH */
-	$('#search_btn').click();
 	
-});
+$(document).on('pageinit', "#searchpage", function() {
 
-/* HANDLES INITIAL SEARCHES */
-	$("#search_btn").click(function(){
-		$("#load_more").data("resultPage", 0);
-		$("#indicators").hide();
-		$("#contents").empty();
-		$(this).button("disable");
-		doSearch();
-	});
-	
-$(document).on('pageinit', "#searchpage", function() {
-	/* 'ENTER' IN TEXTBOX EXECUTES SEARCH */
+$("#search_btn").click(function(){
 	window.sdkAsyncInit = function() 
 	// Instantiate the SDK
 	     var res = new EDMUNDSAPI('rw3yh74wqjp9aazevc38ea8r'); //API Key
@@ -41,6 +28,7 @@ $(document).on('pageinit', "#searchpage", function() {
 			res.api('/api/vehicle/v2/toyota/models', options, success, fail);
 
 	    // Additional initialization code such as adding Event Listeners goes here
+}
 
 });
 
