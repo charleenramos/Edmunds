@@ -29,6 +29,7 @@ $("#search_btn").click(function(){
 
 	    // Additional initialization code such as adding Event Listeners goes here
 }
+}
 
 });
 
