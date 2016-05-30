@@ -28,8 +28,8 @@
 #box1 {
   position:relative;top:10px;
   width: 20%;
-  height: 40px;
-  font-size: 20px;
+  height: 60px;
+  font-size: 60px;
   -moz-box-shadow: 10px 10px 5px #800;
   -webkit-box-shadow: 10px 10px 5px #800;
   box-shadow: 10px 10px 5px #800;
